@@ -7,7 +7,8 @@ The objective of this project is to develop a web application that allows users/
 ### The main entities involved in this project are:
 + User: A person who registers an account and uses the voucher management system.
 + Voucher: A digital coupon that has a code, value, type, expiration date, and usage limit.
-+ Transaction: A record of a voucher being redeemed by a user for a product or service from a merchant.
++ Transaction: A record of a voucher being redeemed by a user for a product or service from the admin.
++ Admin: A special User with privileges for performing CRUD operations on Vouchers.
 
 ## Functional Requirements:
 ### The functional requirements of this project are:
@@ -15,6 +16,7 @@ The objective of this project is to develop a web application that allows users/
 + The user should be able to view vouchers in a list or grid view with filters and sorting options.
 + The user should be able to claim vouchers on plutosONE website.
 + The user should be able to view their transactions history.
++ The admin should be able to create, replace, update and Destroy Vouchers.
 
 ## Non-Functional Requirements:
 ### The non-functional requirements of this project are:
