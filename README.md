@@ -4,7 +4,7 @@
 The objective of this project is to develop a web application that allows users/customers to claim vouchers for various purposes on plutosONE website.
 
 ## Entities:
-The main entities involved in this project are:
+### The main entities involved in this project are:
 + User: A person who registers an account and uses the voucher management system.
 + Voucher: A digital coupon that has a code, value, type, expiration date, and usage limit.
 + Transaction: A record of a voucher being redeemed by a user for a product or service from a merchant.
