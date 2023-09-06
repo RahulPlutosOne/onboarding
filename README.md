@@ -23,8 +23,11 @@ The objective of this project is to develop a web application that allows users/
 + The user should be able to register an account and log in using their email and password.
 + The user should be able to view vouchers in a list or grid view with filters and sorting options.
 + The user should be able to claim vouchers on plutosONE website.
-+ The user should be able to view their transactions history.
 + The admin should be able to create, replace, update and Destroy Vouchers.
+
+### Functions used for above requirements:
++ signup : A controller for user/customer signup that requires username, email, password and isAdmin data from the user/customer. After hashing the password using bcrypt library the user data is then added to mySql database using sequelize ORM.
++ signin : Controller for user/customer to signin the website with their email and password. This controller verifies the authenticity of the user and then sends back a JSON web token that helps in verifying the user without asking for email and password again and again.
 
 ## Non-Functional Requirements:
 ### The non-functional requirements of this project are:
