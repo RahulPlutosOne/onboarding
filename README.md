@@ -10,6 +10,15 @@ The objective of this project is to develop a web application that allows users/
 + Transaction: A record of a voucher being redeemed by a user for a product or service from the admin.
 + Admin: A special User with privileges for performing CRUD operations on Vouchers.
 
+### Libraries used in this project are:
++ Express: It is a back end web application framework for building RESTful APIs with Node.js.
++ bcrypt:  A JavaScript implementation of the bcrypt password hashing function that allows you to easily create a hash out of a password string.
++ jsonwebtoken: A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). It can be used for an authentication system and can also be used for information exchange.
++ sequelize : Sequelize is a Node. js-based Object Relational Mapper that makes it easy to work with MySQL. An Object Relational Mapper performs functions like handling database records by representing the data as objects.
++ mysql2 : MySQL2 is the MySQL connector library used by Sequelize to connect to the MySQL db server.
++ xlsx : A SheetJS Spreadsheet data parser and writer. It is used to build/parse excel sheets.
++ nodemon(optional) : A tool that helps develop Node. js based applications by automatically restarting the node application when file changes in the directory are detected.
+
 ## Functional Requirements:
 ### The functional requirements of this project are:
 + The user should be able to register an account and log in using their email and password.
