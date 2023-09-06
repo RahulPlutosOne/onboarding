@@ -28,6 +28,14 @@ The objective of this project is to develop a web application that allows users/
 ### Functions used for above requirements:
 + signup : A controller for user/customer signup that requires username, email, password and isAdmin data from the user/customer. After hashing the password using bcrypt library the user data is then added to mySql database using sequelize ORM.
 + signin : Controller for user/customer to signin the website with their email and password. This controller verifies the authenticity of the user and then sends back a JSON web token that helps in verifying the user without asking for email and password again and again.
++ changeUsername : Controller that helps users to update his/her username after authentication.
++ changePassword : Controller that helps users to update password after authentication.
++ showVouchers : Controller that extracts all the vouchers from the excel sheets and send it as json response.
++ getVoucher : Controller for getting the data of a single voucher from the Vouchers json data and sending it as a response.
++ claimVoucher : Controller for helping the user to claim a certain voucher by sending the voucher code as a response to the voucher id received in request body.
++ addVoucher : Controller for users that has/have isAdmin property to true allowing them to add Voucher in the Vouchers excel sheet by taking voucher details in the request body.
++ updateVoucher : Controller for Admin to update a voucher details in the json format and replacing the original.
++ deleteVoucher : Controller for Admin to delete a certain voucher from the database( excel sheet ).
 
 ## Non-Functional Requirements:
 ### The non-functional requirements of this project are:
